@@ -41,11 +41,20 @@ function adicionar(){
             div1.remove()
             var pos =  Number(div1.children[1].className)
             soma = soma - valores[pos]
-            result.innerHTML = "O valor total dos produtos é R$: <b>" + soma + "</b>"
+            if(soma != 0){
+                result.innerHTML = "O valor total dos produtos é R$: <b>" + soma + "</b>"
+            }else{
+                result.innerHTML = ""
+            }
             console.log(div1.children[1].className)
         })
         var result = document.querySelector("#result")
-        result.innerHTML = "O valor total dos produtos é R$: <b>" + soma + "</b>"
+        if(soma != 0){
+            result.innerHTML = "O valor total dos produtos é R$: <b>" + soma + "</b>"
+        }else{
+            result.innerHTML = ""
+        }
+        
         
         a++;
         
@@ -57,5 +66,3 @@ function adicionar(){
     
 
 }
-
-
