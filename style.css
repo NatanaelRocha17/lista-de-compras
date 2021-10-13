@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#247cf0;
+    color: rgb(255, 255, 255);
+}
+section{
+
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    border-radius: 20px;
+    width: 80%;
+    height: 80vh;
+}
+#text{
+    width: 50%;
+    height: 30px;
+    font-size: 15pt;
+}
+#valor{
+    height: 30px;
+    font-size: 15pt;
+}
+#center, h2 {
+    text-align: center;
+}
+div p input{
+    width: 30%;
+    height: 50px;
+    font-size: 35px;
+}
+#add{
+    height: 35px;
+    cursor: pointer;
+    transition: 0.9s;
+    border-radius: 10px;
+    border: solid 4px rgb(6, 136, 30);
+   
+}
+
+#add:hover{
+    background-color: rgb(6, 136, 30);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border: solid 4px rgb(255, 255, 255);
+}
+
+.tarefa{
+    width: 400px;
+    height: auto;
+    border: solid #10DEB1 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: #0580F5;
+
+}
+.tarefa p{
+    display: inline-block;
+}
+.tarefas p{
+    font-size: 20px;
+    margin: 14px 5px;
+    
+}
+.icon1{
+    margin: 0px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 0px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.icon1:hover{
+    background-color: white;
+    
+}
+
+.icon2{
+    margin: 0px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    padding: 0px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.icon2:hover{
+    background-color: white;
+    
+}
+#result{
+    text-align: center;
+    font-size: 20pt;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+      background-color: rgb(19, 111, 197);
+    }
+    #text{
+        width: 100%;
+    }
+    #valor{
+        width: 80%;
+    }
+    .tarefa{
+        width: 100%;
+        position: relative;
+    }
+    .tam{
+        width: 45%;
+        margin: 0px;
+       
+        padding-right: 100px;
+    }
+    .tarefa p:nth-child(2){
+        
+        width: 50%;
+        padding-right: 20px;
+    }
+    .icon1{
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 20; right: 55px;
+        margin: auto;
+    }
+    .icon2{
+        position: absolute;
+        top: 0; bottom: 0;
+        left: 15; right: 0;
+        margin: auto;
+        
+    }
+    h1{
+        font-size: 22pt;
+    }
+}
+
